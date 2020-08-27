@@ -529,7 +529,7 @@ li a {
 
 .title_big {
   font-size: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
   font-family: 'PlayfairDisplay-Regular', sans-serif;
   background: -webkit-gradient(linear, left top, right top, color-stop(20%, #B99159), color-stop(80%, #F0BE7B), color-stop(10%, #B99159));
   background: linear-gradient(to right, #B99159 20%, #F0BE7B 80%, #B99159 10%);
@@ -1065,6 +1065,10 @@ li a {
   width: 100%;
   -webkit-transition: .5s;
   transition: .5s;
+}
+
+#news .title_big {
+  margin: 0 auto;
 }
 
 #news .col-lg-4:hover h5 a {
@@ -1818,6 +1822,7 @@ li a {
   .title_big {
     font-size: 60px;
     margin-bottom: 80px;
+    max-width: 90% !important;
   }
   #introduce .col-lg-5 h6 {
     font-size: 18px;
@@ -1829,19 +1834,23 @@ li a {
     margin-top: 90px !important;
   }
   #apec_mandala_holiday .row .col-lg-6:first-child h2 {
-    font-size: 40px;
+    font-size: 50px !important;
   }
-  #apec_mandala_holiday .row .col-lg-6:first-child h6 {
-    font-size: 18px;
+  #apec_mandala_holiday .row .col-lg-6:first-child h5 {
+    font-size: 18px !important;
   }
   #destination .row img {
     height: 450px !important;
+  }
+  #destination p {
+    max-width: 60% !important;
   }
   #destination .title_img h5 a {
     font-size: 90px !important;
   }
   #destination .title_img p {
     font-size: 20px !important;
+    max-width: 100%;
   }
   #registration .col-lg-7 h4 {
     font-size: 24px;
@@ -1881,6 +1890,7 @@ li a {
   .title_big {
     font-size: 60px;
     margin-bottom: 80px;
+    max-width: 83% !important;
   }
   #introduce .col-lg-5 h6 {
     font-size: 18px;
@@ -1892,19 +1902,23 @@ li a {
     margin-top: 90px !important;
   }
   #apec_mandala_holiday .row .col-lg-6:first-child h2 {
-    font-size: 40px;
+    font-size: 50px !important;
   }
-  #apec_mandala_holiday .row .col-lg-6:first-child h6 {
-    font-size: 18px;
+  #apec_mandala_holiday .row .col-lg-6:first-child h5 {
+    font-size: 18px !important;
   }
   #destination .row img {
     height: 475px !important;
+  }
+  #destination p {
+    max-width: 50%;
   }
   #destination .title_img h5 a {
     font-size: 90px !important;
   }
   #destination .title_img p {
     font-size: 20px !important;
+    max-width: 100%;
   }
   #registration .col-lg-7 h4 {
     font-size: 24px;
