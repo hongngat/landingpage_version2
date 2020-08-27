@@ -109,29 +109,10 @@
         width: 50px;
         height: 50px;
         z-index: 99999;
-        .sticky_face {
-            width: 50px;
-            height: 50px;
-            background-color: #E29A38;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            a {
-                color: #F5F6FA;
-                font-weight: bold;
-                font-size: 30px;
-                i {
-                    animation: tada;
-                    animation-duration: 2s;
-                    animation-iteration-count: infinite;
-                }
-            }
-            margin-bottom: 10px;
-        }
         .contact_phone {
             width: 50px;
             height: 300px;
-            background-color: #E29A38;
+            background-color: #C19759;
             display: flex;
             align-items: center;
             justify-content: center;
